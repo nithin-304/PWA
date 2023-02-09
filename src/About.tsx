@@ -1,7 +1,8 @@
 import React from "react";
+import Interval from 'react-interval-rerender';
 
-const About: React.FC = () => (
-  <h1>This is a PWA</h1>
-);
+const Clock = () => (
+  <Interval delay={1000}>{() => new Date().toLocaleTimeString()}</Interval>
+)
 
-export default About;
+export default Clock;
