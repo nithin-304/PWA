@@ -4,7 +4,7 @@ import './App.css';
 
 
 const About = lazy(() => import('./About'));
-const Home =  lazy(() => import('./Home') );
+const Clock =  lazy(() => import('./Home') );
 
 
 
@@ -23,7 +23,7 @@ const App: React.FC = () => (
     </nav>
     <Routes>
       <Route path="/about" element={<About />} />
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<Clock />} />
     </Routes>
     </Suspense>
   </Router>
