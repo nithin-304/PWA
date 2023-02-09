@@ -4,7 +4,7 @@ import './App.css';
 
 
 const About = lazy(() => import('./About'));
-const Clock =  lazy(() => import('./Home') );
+const Clock = lazy(() => import('./Home'));
 
 
 
