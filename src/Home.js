@@ -1,6 +1,5 @@
 import React from "react";
 import QRCode from "react-qr-code";
-import Interval from "react-interval-rerender";
 
 function fetchQR(Nithin){
 return(
@@ -12,7 +11,6 @@ return(
     viewBox={`0 0 256 256`}
     />
 </div>
-
 );
 }
 

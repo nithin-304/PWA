@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import './App.css';
 
 
-const About = lazy(() => import('./About'));
-const Clock = lazy(() => import('./Home'));
+const Clock = lazy(() => import('./About'));
+const Nithin = lazy(() => import('./Home'));
 
 
 
@@ -22,8 +22,8 @@ const App: React.FC = () => (
       </ul>
     </nav>
     <Routes>
-      <Route path="/about" element={<About />} />
-      <Route path="/" element={<Clock />} />
+      <Route path="/about" element={<Clock />} />
+      <Route path="/" element={<Nithin />} />
     </Routes>
     </Suspense>
   </Router>
