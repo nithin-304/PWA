@@ -16,11 +16,8 @@ return(
 );
 };
 
-
-
-<Interval delay={1000}>{() => fetchQR(new Date().toLocaleTimeString()})</Interval
-
-
-
-
-export default fetchQR;
+export default function home(){
+return (
+<div><Interval delay={1000}>{() => fetchQR(new Date().toLocaleTimeString()})</Interval></div>
+);
+};
